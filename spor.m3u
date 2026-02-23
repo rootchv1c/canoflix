@@ -1,0 +1,226 @@
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" tvg-name="TR:HT Spor HD" ,TR: HT Spor
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/229e051d-6090-4235-a2ef-9420a17e6f9d.png" tvg-name="TR:Ekol TV HD" ,TR:Ekol TV HD
+--
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://i.hizliresim.com/99egc5v.png" tvg-name="TR:Ekol Sport TV HD" ,TR:Ekol Sport TV HD
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" tvg-name="TR:Halk Tv HD" ,TR:Halk Tv HD
+--
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" tvg-name="TR:Trt Spor HD" ,TR:Trt Spor HD
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" tvg-name="TR:A Spor HD" ,TR:A Spor HD
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" tvg-name="TR:Trt Spor Yıldız HD" ,TR:Trt Spor Yıldız HD
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" tvg-name="TR:Sports Tv HD" ,TR:Sports Tv HD
+https://live.sportstv.com.tr/hls/low/sportstv_hd/index.m3u8
+#EXTINF:-1 group-title="Ümitm0d-Türk Kanalları" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/06bc7085-065e-473e-b4aa-ec56ed3455f5.png" tvg-name="TR:Fb Tv HD" ,TR:Fb Tv HD
+--
+#EXTINF:-1 group-title="Filmler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/3d5b93cb90f3ca8dc9b6aef5ddce9731.jpg" tvg-id="4965" tvg-name="Gulltransporten" ,Gulltransporten
+https://load.prectv63.lol/1/stream/dmNvZGVjIGxpYngyNjQgLXByZXNldCB1bHRyYWZhc3QgLXR1bmUgemVyb2/txt/M/GoldRun/v.m3u8
+--
+#EXTINF:-1 group-title="Filmler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/3d5b93cb90f3ca8dc9b6aef5ddce9731.jpg" tvg-id="4965" tvg-name="Gulltransporten" ,Gulltransporten
+https://load.prectv63.lol/1/stream/dmNvZGVjIGxpYngyNjQgLXByZXNldCB1bHRyYWZhc3QgLXR1bmUgemVyb2/txt/M/GoldRun/v.m3u8
+--
+#EXTINF:-1 group-title="Filmler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/3d5b93cb90f3ca8dc9b6aef5ddce9731.jpg" tvg-id="4965" tvg-name="Gulltransporten" ,Gulltransporten
+https://load.prectv63.lol/1/stream/dmNvZGVjIGxpYngyNjQgLXByZXNldCB1bHRyYWZhc3QgLXR1bmUgemVyb2/txt/M/GoldRun/v.m3u8
+--
+#EXTINF:-1 group-title="Diziler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" tvg-id="7828" tvg-name="American Sports Story - Sezon 1 - Bölüm 1" ,American Sports Story - Sezon 1 - Bölüm 1
+https://load.prectv63.lol/hls/11/cdn62/2f0fa82c1fabfd8823141bdeaa69d63517278716076.mp4/index.m3u8
+#EXTINF:-1 group-title="Diziler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" tvg-id="7828" tvg-name="American Sports Story - Sezon 1 - Bölüm 2" ,American Sports Story - Sezon 1 - Bölüm 2
+https://load.prectv63.lol/hls/11/cdn62/929dee9988806ab9f569c4e3c839b44c17278715998.mp4/index.m3u8
+#EXTINF:-1 group-title="Diziler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" tvg-id="7828" tvg-name="American Sports Story - Sezon 1 - Bölüm 3" ,American Sports Story - Sezon 1 - Bölüm 3
+https://load.prectv63.lol/hls/11/cdn62/281c15d93a773f0da099c9bfd45ae67617278716287.mp4/index.m3u8
+#EXTINF:-1 group-title="Diziler" tvg-logo="https://m.prectv60.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" tvg-id="7828" tvg-name="American Sports Story - Sezon 1 - Bölüm 4" ,American Sports Story - Sezon 1 - Bölüm 4
+https://load.prectv63.lol/hls/11/cdn62/4b8d33eb65bfeaf49308bb22e48cf18e17278716167.mp4/index.m3u8
+--
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 1. Bölüm" ,TR:American Sports Story 1. Sezon 1. Bölüm
+https://vidrame.pro/vr/get/64e43fa3/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 2. Bölüm" ,TR:American Sports Story 1. Sezon 2. Bölüm
+https://vidrame.pro/vr/get/1eb4ccfb/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 3. Bölüm" ,TR:American Sports Story 1. Sezon 3. Bölüm
+https://vidrame.pro/vr/get/acd06f01/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 4. Bölüm" ,TR:American Sports Story 1. Sezon 4. Bölüm
+https://vidrame.pro/vr/get/6b2e791b/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 5. Bölüm" ,TR:American Sports Story 1. Sezon 5. Bölüm
+https://vidrame.pro/vr/get/d443fcd5/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 6. Bölüm" ,TR:American Sports Story 1. Sezon 6. Bölüm
+https://vidrame.pro/vr/get/3d7cbb85/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 7. Bölüm" ,TR:American Sports Story 1. Sezon 7. Bölüm
+https://vidrame.pro/vr/get/78d7e2a0/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 8. Bölüm" ,TR:American Sports Story 1. Sezon 8. Bölüm
+https://vidrame.pro/vr/get/606455a7/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 9. Bölüm" ,TR:American Sports Story 1. Sezon 9. Bölüm
+https://vidrame.pro/vr/get/03ed841d/master.m3u8
+#EXTINF:-1 group-title="Dizi-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500733/poster/thumb/american-sports-story.jpg" tvg-name="TR:American Sports Story 1. Sezon 10. Bölüm" ,TR:American Sports Story 1. Sezon 10. Bölüm
+https://vidrame.pro/vr/get/de18f8e9/master.m3u8
+--
+#EXTINF:-1 group-title="Film-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/500245/poster/thumb/passport-to-love.jpg" tvg-name="TR:Passport to Love" ,TR:Passport to Love
+https://vidrame.pro/vr/get/93ca228a/master.m3u8
+--
+#EXTINF:-1 group-title="Film-Panel-2" tvg-logo="https://www.hdfilmizle.life/v/29075/poster/thumb/mythica-the-darkspore.jpg" tvg-name="TR:Efsane: Karanlık Spor" ,TR:Efsane: Karanlık Spor
+https://vidrame.pro/vr/get/e207d508/master.m3u8
+--
+#EXTINF:-1 group-title="Film Panel-3" tvg-logo="https://filmdizionline.com/uploads/movies/original/ekisporter-478.webp" tvg-id="vod.tr" tvg-name="TR: Ekisporter" ,TR: Ekisporter
+https://drakkarhls1.icu/hls/videos/19832/master.m3u8
+--
+#EXTINF:-1 group-title="Film Panel-3" tvg-logo="https://filmdizionline.com/assets/v2/images/no-poster.svg" tvg-id="vod.tr" tvg-name="TR: Transporter 2" ,TR: Transporter 2
+https://drakkarhls7.icu/hls/videos/3618/master.m3u8
+--
+#EXTINF:-1 group-title="Aksiyon" tvg-logo="https://image.tmdb.org/t/p/w500/2Al0ncYtEh0frfCm52pALJGR7z8.jpg" , Mythica: The Darkspore (2015) | Ümitm0d
+https://vidmody.com/vs/tt3478232
+--
+#EXTINF:-1 group-title="Aksiyon" tvg-logo="https://image.tmdb.org/t/p/w500/f9wpClV1n8aI1xbNJxv1NBCBgmp.jpg" , Kan Sporu (1988) | Ümitm0d
+https://vidmody.com/vs/tt0092675
+--
+#EXTINF:-1 group-title="Belgesel" tvg-logo="https://image.tmdb.org/t/p/w500/pArr12pr825SWb06ihiWesJsuR0.jpg" , Perde Arkası: Sportmenlik Dışı Faul Operasyonu (2022) | Ümitm0d
+https://vidmody.com/vs/tt21448508
+--
+#EXTINF:-1 group-title="Film" tvg-logo="https://img.fullhdfilmizlesene.de/poster/film/neseli-ciftlik-tren-kalkiyor-kutoppen-p-sporet-19812.jpg", Neşeli Çiftlik: Tren Kalkıyor!
+https://s22.seeshare.pics/ml/F3I0o3OjMJ4gHTRhp3OipzI0YwVjZwZhI0IPYHEZYwRjBQOjYxEIDHjd0zxp2Iyp2uupzHhpTywpjs0xi22vr1
+--
+#EXTINF:-1 group-title="✨YABANCI    ✨TR DBL" tvg-logo="https://image.tmdb.org/t/p/w500/kndxR9TRK0kJ5hxzDprRSS80F2W.jpg" ,Bloodsport
+https://vidmody.com/vs/tt0092675/
+--
+#EXTINF:-1 group-title="✨ 2025 ✨" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGI0MDI4NjEtOWU3ZS00ODQyLWFhYTgtNGYxM2ZkM2Q2YjE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,F1: The Movie (2025) Aksiyon-Dram-Spor
+https://vidmody.com/vs/tt16311594/
+--
+#EXTINF:-1 group-title="✨ 2025 ✨" tvg-logo="https://m.media-amazon.com/images/M/MV5BZThkNDM1MGItYjYxZC00ZjJlLTk2YjMtYWJkZGU2MGFmYWFmXkEyXkFqcGc@._V1_.jpg" ,Lefter: Bir Ordinaryüs Hikayesi(2025)Spor-Biyografi
+https://vidmody.com/vs/tt34433451/
+--
+#EXTINF:-1 group-title="2023 ✨ 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDQxNDBhNmQtOWVkMC00MDdkLWI2N2EtZjllNGZjMDc5NjA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Day of the Fight (2023) Boxing-Drama-Spor
+https://vidmody.com/vs/tt21987878/
+--
+#EXTINF:-1 group-title="2015 ✨ 2016" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYmOmqvp30ldSpoRc5nrbyEvRVMrfcMX6pg&s" ,Bölünmezler
+https://vidmody.com/vs/tt5259496/
+--
+#EXTINF:-1 group-title="⚡SERI FILM⚡ The Transporter" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk2NDc2MDAxN15BMl5BanBnXkFtZTYwNDc1NDY2._V1_FMjpg_UX1000_.jpg" ,The.Transporter.1.2002
+https://vidmody.com/vs/tt0293662/
+#EXTINF:-1 group-title="⚡SERI FILM⚡ The Transporter" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ5MDM0MTI2N15BMl5BanBnXkFtZTcwNTM5NDczMw@@._V1_.jpg" ,The.Transporter.2.2005
+https://vidmody.com/vs/tt0388482/
+#EXTINF:-1 group-title="⚡SERI FILM⚡ The Transporter" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkxNzg1OTU4M15BMl5BanBnXkFtZTcwMjcyMjI5MQ@@._V1_FMjpg_UX1000_.jpg" ,The.Transporter.3.2008
+https://vidmody.com/vs/tt2938956/
+#EXTINF:-1 group-title="⚡SERI FILM⚡ The Transporter" tvg-logo="https://m.media-amazon.com/images/M/MV5BODFlMTExMjEtM2JmZi00MGE1LThjNjgtYzc4NmZkN2JiZGE4XkEyXkFqcGc@._V1_.jpg" ,The.Transporter.4.2015
+https://vidmody.com/vs/tt2938956/
+--
+#EXTINF:-1 tvg-id="4965" tvg-name="Gulltransporten" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/3d5b93cb90f3ca8dc9b6aef5ddce9731.jpg" group-title="FİLM ▶ Son Eklenen Filmler",Gulltransporten
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="4965" tvg-name="Gulltransporten" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/3d5b93cb90f3ca8dc9b6aef5ddce9731.jpg" group-title="FİLM ▶ Aksiyon Filmleri",Gulltransporten
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="4965" tvg-name="Gulltransporten" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/3d5b93cb90f3ca8dc9b6aef5ddce9731.jpg" group-title="FİLM ▶ Macera Filmleri",Gulltransporten
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45770" tvg-name="American Sports Story S1E1" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Son Eklenen Diziler",American Sports Story S1E1
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45771" tvg-name="American Sports Story S1E2" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Son Eklenen Diziler",American Sports Story S1E2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45772" tvg-name="American Sports Story S1E3" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Son Eklenen Diziler",American Sports Story S1E3
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45773" tvg-name="American Sports Story S1E4" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Son Eklenen Diziler",American Sports Story S1E4
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45770" tvg-name="American Sports Story S1E1" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Dram Dizileri",American Sports Story S1E1
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45771" tvg-name="American Sports Story S1E2" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Dram Dizileri",American Sports Story S1E2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45772" tvg-name="American Sports Story S1E3" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Dram Dizileri",American Sports Story S1E3
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 tvg-id="45773" tvg-name="American Sports Story S1E4" tvg-logo="https://m.prectv61.lol/uploads/cache/poster_thumb/uploads/jpg/f74f47683d1f86ca86c203d09233f2de.jpg" group-title="DİZİ ▶ Dram Dizileri",American Sports Story S1E4
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+--
+#EXTINF:-1 group-title="Fantastik" tvg-logo="https://image.tmdb.org/t/p/w500/2Al0ncYtEh0frfCm52pALJGR7z8.jpg" ,Mythica: The Darkspore (2015)
+https://vidmody.com/vs/tt3478232
+--
+https://vs12.gamephotos.pro/v/Pa.villspor.2025.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
+#EXTINF:-1 group-title="Komedi" tvg-logo="https://www.hdfilmizle.life/v/501436/poster/thumb/sosyal-climbers.jpg" ,Sosyal Climbers
+--
+#EXTINF:-1 group-title="Aksiyon" tvg-logo="https://image.tmdb.org/t/p/w500/2Al0ncYtEh0frfCm52pALJGR7z8.jpg" ,Mythica: The Darkspore (2015)
+https://vidmody.com/vs/tt3478232
+--
+#EXTINF:-1 group-title="Aksiyon" tvg-logo="https://image.tmdb.org/t/p/w500/f9wpClV1n8aI1xbNJxv1NBCBgmp.jpg" ,Kan Sporu (1988)
+https://vidmody.com/vs/tt0092675
+--
+#EXTINF:-1 group-title="Aksiyon" tvg-logo="https://www.hdfilmizle.life/v/29075/poster/thumb/mythica-the-darkspore.jpg" ,Efsane: Karanlık Spor
+https://vs2.photour.org/v/o8lfxtadi476/master.m3u8
+--
+#EXTINF:-1 group-title="Dram" tvg-logo="https://image.tmdb.org/t/p/w500/f9wpClV1n8aI1xbNJxv1NBCBgmp.jpg" ,Kan Sporu (1988)
+https://vidmody.com/vs/tt0092675
+--
+#EXTINF:-1 group-title="Dram" tvg-logo="https://www.hdfilmizle.life/v/500245/poster/thumb/passport-to-love.jpg" ,Passport to Love
+https://vs7.pictureflix.org/v/Passport.To.Love.2024.1080p.WEBRip/master.m3u8
+#EXTINF:-1 group-title="Dram" tvg-logo="https://www.hdfilmizle.life/v/500238/poster/thumb/feng-liu-yi-dai.jpg" ,Feng liu yi dai
+--
+#EXTINF:-1 group-title="Gerilim" tvg-logo="https://image.tmdb.org/t/p/w500/f9wpClV1n8aI1xbNJxv1NBCBgmp.jpg" ,Kan Sporu (1988)
+https://vidmody.com/vs/tt0092675
+--
+#EXTINF:-1 group-title="Macera" tvg-logo="https://image.tmdb.org/t/p/w500/2Al0ncYtEh0frfCm52pALJGR7z8.jpg" ,Mythica: The Darkspore (2015)
+https://vidmody.com/vs/tt3478232
+--
+#EXTINF:-1 group-title="Belgesel" tvg-logo="https://image.tmdb.org/t/p/w500/pArr12pr825SWb06ihiWesJsuR0.jpg" ,Perde Arkası: Sportmenlik Dışı Faul Operasyonu (2022)
+https://vidmody.com/vs/tt21448508
+--
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , (((Spor Çoklu Ekran
+https://dsmartgo-live.ercdn.net/spormozaik/spormozaik.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((A Spor
+https://dsmartgo-live.ercdn.net/aspor/aspor.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((CosmoSports
+https://dsmartgo-live.ercdn.net/fightbox/fightbox.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Eurosport 1
+https://dsmartgo-live.ercdn.net/eurosport1/eurosport1.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Eurosport 2
+https://dsmartgo-live.ercdn.net/eurosport2/eurosport2.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((FB TV
+--
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((HT Spor
+https://dsmartgo-live.ercdn.net/htspor/htspor.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Spor Smart
+https://dsmartgo-live.ercdn.net/smartspor/smartspor.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Spor Smart 2
+https://dsmartgo-live.ercdn.net/smartspor2/smartspor2.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Sports TV
+https://dsmartgo-live.ercdn.net/sportstv/sportstv.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Sıfır TV
+--
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((TRT Spor
+https://dsmartgo-live.ercdn.net/trtspor/trtspor.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , ((Trt Spor Yıldız
+https://dsmartgo-live.ercdn.net/trtspor2/trtspor2.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲-D SMART GO" tvg-logo="https://raw.githubusercontent.com/KILBERBER/kilberber/refs/heads/main/1.dsmart.jpg" tvg-id="Dummy" , (BBC Earth
+--
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲- ORTAYA KARISIK" tvg-logo="http://assets.tvcdn.net/639df808-f325-4b05-8cdb-9ed151338087.png" tvg-id="http://stream.tvcdn.net/spor/fit-yasa-tv.m3u8" , Fit Yaşa TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
+--
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲- ORTAYA KARISIK" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/f1af70ab-1f78-4af7-97c5-bcf61aa1acf7.jpeg" tvg-id="mavtv-motorsports-network-new" , MAVTV International (Original)
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8?ads_amagi_channel=872&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=7&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=5458&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=215734dc-55ee-41e8-95af-ab56cfd08edd&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲- ORTAYA KARISIK" tvg-logo="https://i.imgur.com/aiGQtzI.png" tvg-id="MyTimeMovieNetworkEast.us" , MyTime Movie Network
+--
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲- ORTAYA KARISIK" tvg-logo="https://a.jsrdn.com/hls/23208/sports-first-tv/logo_20250211_205731_70.png" tvg-id="Dummy" , Sports First TV
+https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8
+#EXTINF:-1 group-title="🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲- ORTAYA KARISIK" tvg-logo="noimage.png" tvg-id="Dummy" , The Walking Dead Universe
+--
+#EXTINF:-1 group-title="Spor" tvg-logo="https://yt3.googleusercontent.com/uISpOU-Gdf_TWXZCyvQAFn_LeJhILd_84H30Fqpk4-fMTREWU4VsTOLAch4YBzSBxmoFxGPO=s160-c-k-c0x00ffffff-no-rj" tvg-id="sifirtvyt" tvg-name="Sıfır Tv - YT" ,Sıfır Tv - YT
+http://87.121.104.29:1855/sifirtvyt/stream.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://yt3.googleusercontent.com/_vs7K9u3pS-C7flO0cVIkxqgLsIkjElGL6izCYFzI0COAYKda5g2J9DRB9-EHsfTXwA_ayi72g=s160-c-k-c0x00ffffff-no-rj" tvg-id="bshaberyt" tvg-name="Bein Sports Haber" ,Bein Sports Haber
+http://87.121.104.29:1855/bshaberyt/stream.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://yt3.googleusercontent.com/43xh3uEvLl7kAKca-zFauATzT3spixqjb9v-cYBVxBLzbcbVj42iV3Msbpd5zXwN_w7jXdnzFq8=s160-c-k-c0x00ffffff-no-rj" tvg-id="asporyt" tvg-name="A Spor" ,A Spor
+http://87.121.104.29:1855/asporyt/stream.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://yt3.googleusercontent.com/9_Eu0vg2etMgqBbXQKjOVfFxDnNEPB8nODaCszsmK6pTZHfyUrtuR_3UKI5Td2I8OrAFMTDJ3g=s160-c-k-c0x00ffffff-no-rj" tvg-id="nowsporyt" tvg-name="Now Spor" ,Now Spor
+http://87.121.104.29:1855/nowsporyt/stream.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://yt3.googleusercontent.com/oLZ0KLVHtF1UseG3yVbRCzluCUlKJJuXRhi-Uyk8chVwfTVzb3omIci1Pvo07Fa2mYlH3tghFhg=s160-c-k-c0x00ffffff-no-rj" tvg-id="noktatvyt" tvg-name="Nokta Tv" ,Nokta Tv
+http://87.121.104.29:1855/noktatvyt/stream.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://yt3.googleusercontent.com/LCDFZ6yVKC5dZyxsv4zV7epE6e2kJheeptxzvlDtYsJ7zADsr9u8al-NAHctRaHlMp6OF29klJs=s160-c-k-c0x00ffffff-no-rj" tvg-id="klasmedyayt" tvg-name="Klas Medya" ,Klas Medya
+http://87.121.104.29:1855/klasmedyayt/stream.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://dsmart-static-v2.ercdn.net/content/u/S4/98405/Thumbnail.png" tvg-id="htspor" tvg-name="HT Spor" ,HT Spor
+https://new.testworkery0.workers.dev/stream/aHR0cHM6Ly9kc21hcnRnby1saXZlLmVyY2RuLm5ldC9odHNwb3IvaHRzcG9yLm0zdTg=.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://dsmart-static-v2.ercdn.net/content/l/MK/11888/Thumbnail.png" tvg-id="trtspor" tvg-name="TRT Spor" ,TRT Spor
+https://new.testworkery0.workers.dev/stream/aHR0cHM6Ly9kc21hcnRnby1saXZlLmVyY2RuLm5ldC90cnRzcG9yL3RydHNwb3IubTN1OA==.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://dsmart-static-v2.ercdn.net/content/h/NK/15953/Thumbnail.png" tvg-id="trtsporyildiz" tvg-name="TRT Spor Yıldız" ,TRT Spor Yıldız
+https://new.testworkery0.workers.dev/stream/aHR0cHM6Ly9kc21hcnRnby1saXZlLmVyY2RuLm5ldC90cnRzcG9yMi90cnRzcG9yMi5tM3U4.m3u8

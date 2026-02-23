@@ -9,138 +9,187 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root { --red: #E50914; --black: #0f0f0f; --dark-gray: #1a1a1a; --text-gray: #b3b3b3; }
         body { background: var(--black); color: white; font-family: 'Helvetica Neue', Arial, sans-serif; overflow-x: hidden; }
-        .navbar { position: fixed; top: 0; width: 100%; display: flex; flex-direction: column; padding: 15px 5%; background: rgba(0,0,0,0.9); z-index: 1000; gap: 10px; }
-        .logo { color: var(--red); font-size: 2rem; font-weight: bold; text-decoration: none; text-align: center; }
-        .search-container { position: relative; width: 100%; }
-        .search-container input { width: 100%; padding: 12px 40px; border-radius: 25px; border: none; background: var(--dark-gray); color: white; font-size: 1rem; }
-        .stats { display: flex; gap: 15px; justify-content: center; font-size: 0.8rem; color: var(--text-gray); margin-top: 110px; padding: 10px; }
-        .content-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; padding: 20px 5%; }
-        .card { background: var(--dark-gray); border-radius: 8px; overflow: hidden; transition: transform 0.3s; cursor: pointer; }
-        .card:hover { transform: scale(1.05); }
+        
+        /* Navbar & Kategori */
+        .header { position: fixed; top: 0; width: 100%; background: rgba(0,0,0,0.95); z-index: 1000; padding: 10px 5%; border-bottom: 1px solid #333; }
+        .logo { color: var(--red); font-size: 1.8rem; font-weight: bold; text-decoration: none; display: block; text-align: center; margin-bottom: 10px; }
+        .nav-buttons { display: flex; gap: 10px; justify-content: center; margin-bottom: 10px; overflow-x: auto; padding-bottom: 5px; }
+        .nav-buttons button { background: var(--dark-gray); color: white; border: none; padding: 8px 15px; border-radius: 20px; cursor: pointer; font-size: 0.9rem; white-space: nowrap; }
+        .nav-buttons button.active { background: var(--red); }
+        .search-bar { width: 100%; padding: 10px 40px; border-radius: 8px; border: none; background: var(--dark-gray); color: white; }
+
+        /* Grid Sistemi */
+        .content-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; padding: 180px 5% 20px; }
+        .card { background: var(--dark-gray); border-radius: 8px; overflow: hidden; position: relative; cursor: pointer; transition: 0.3s; }
+        .card:hover { transform: scale(1.05); z-index: 10; }
         .card img { width: 100%; aspect-ratio: 2/3; object-fit: cover; }
-        .card-info { padding: 8px; font-size: 0.8rem; text-align: center; }
-        #loading { text-align: center; padding: 20px; color: var(--red); }
-        #player { position: fixed; top:0; left:0; width:100%; height:100%; background:black; z-index:2000; display:none; }
-        .close-btn { position:absolute; top:20px; right:20px; color:white; font-size:2rem; cursor:pointer; z-index:2001; }
+        .card-info { padding: 8px; font-size: 0.75rem; text-align: center; font-weight: bold; }
+        .badge { position: absolute; top: 5px; right: 5px; background: var(--red); color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.6rem; }
+
+        /* Player & Dizi Modalı */
+        .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.98); z-index: 2000; display: none; flex-direction: column; }
+        .close-btn { position: absolute; top: 20px; right: 20px; font-size: 2.5rem; cursor: pointer; color: white; }
+        #episode-list { padding: 60px 10%; overflow-y: auto; }
+        .episode-item { padding: 15px; border-bottom: 1px solid #333; cursor: pointer; display: flex; justify-content: space-between; }
+        .episode-item:hover { background: #222; }
     </style>
 </head>
 <body>
 
-    <div class="navbar">
+    <div class="header">
         <a href="#" class="logo">CANOFLIX</a>
-        <div class="search-container">
-            <i class="fas fa-search" style="position:absolute; left:15px; top:15px; color:var(--text-gray)"></i>
-            <input type="text" id="searchInput" placeholder="Film, dizi veya kanal ara...">
+        <div class="nav-buttons">
+            <button onclick="switchMode('canli.m3u', this)" class="active">Canlı TV</button>
+            <button onclick="switchMode('film.m3u', this)">Filmler</button>
+            <button onclick="switchMode('dizi.m3u', this)">Diziler</button>
+        </div>
+        <div style="position:relative">
+            <i class="fas fa-search" style="position:absolute; left:15px; top:12px; color:var(--text-gray)"></i>
+            <input type="text" id="searchInput" class="search-bar" placeholder="Ara...">
         </div>
     </div>
 
-    <div class="stats" id="stats">Veriler yükleniyor (91MB biraz zaman alabilir)...</div>
-    
-    <div class="content-grid" id="container"></div>
-    <div id="loading">Listeleniyor...</div>
+    <div class="content-grid" id="mainGrid"></div>
+    <div id="loading" style="text-align:center; padding:20px; color:var(--red);">Yükleniyor...</div>
 
-    <div id="player">
-        <span class="close-btn" onclick="closePlayer()">&times;</span>
-        <div id="videoArea" style="width:100%; height:100%;"></div>
+    <div id="modal" class="overlay">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <div id="episode-list"></div>
+        <div id="playerArea" style="display:none; width:100%; height:100%;"></div>
     </div>
 
     <script>
         let allData = [];
         let filteredData = [];
         let displayCount = 40;
-        const step = 40;
+        let currentMode = 'canli.m3u';
 
-        async function loadData() {
+        // M3U Dosyasını Oku ve İşle
+        async function loadM3U(file) {
+            document.getElementById('loading').style.display = 'block';
             try {
-                const response = await fetch('umitmod.m3u');
+                const response = await fetch(file);
                 const text = await response.text();
                 const lines = text.split('\n');
-                
+                let items = [];
                 let currentItem = {};
-                
+
                 for (let i = 0; i < lines.length; i++) {
                     let line = lines[i].trim();
                     if (line.startsWith('#EXTINF:')) {
                         const name = line.split(',')[1] || "İsimsiz";
-                        const logoMatch = line.match(/tvg-logo="([^"]+)"/);
-                        const groupMatch = line.match(/group-title="([^"]+)"/);
-                        
-                        currentItem = {
-                            name: name,
-                            logo: logoMatch ? logoMatch[1] : '',
-                            group: groupMatch ? groupMatch[1] : 'Genel'
-                        };
+                        const logo = line.match(/tvg-logo="([^"]+)"/)?.[1] || '';
+                        currentItem = { name, logo, episodes: [] };
                     } else if (line.startsWith('http')) {
                         currentItem.url = line;
-                        allData.push(currentItem);
-                        currentItem = {};
+                        items.push(currentItem);
                     }
                 }
-                
-                filteredData = allData;
-                updateStats();
-                renderItems();
-                document.getElementById('loading').style.display = 'none';
-            } catch (e) {
-                document.getElementById('stats').innerText = "Hata: Dosya yüklenemedi!";
-            }
-        }
 
-        function updateStats() {
-            document.getElementById('stats').innerHTML = `
-                <span><i class="fas fa-list"></i> Toplam: ${allData.length} İçerik</span>
-            `;
-        }
-
-        function renderItems() {
-            const container = document.getElementById('container');
-            const itemsToShow = filteredData.slice(0, displayCount);
-            
-            let html = '';
-            itemsToShow.forEach(item => {
-                html += `
-                    <div class="card" onclick="play('${item.url}')">
-                        <img src="${item.logo}" onerror="this.src='https://via.placeholder.com/300x450?text=CanoFlix'">
-                        <div class="card-info">
-                            <p>${item.name.substring(0,25)}</p>
-                        </div>
-                    </div>
-                `;
-            });
-            container.innerHTML = html;
-        }
-
-        // Sonsuz Kaydırma
-        window.onscroll = function() {
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
-                if (displayCount < filteredData.length) {
-                    displayCount += step;
-                    renderItems();
+                // Dizi Modu ise Grupla
+                if (file === 'dizi.m3u') {
+                    allData = groupSeries(items);
+                } else {
+                    allData = items;
                 }
-            }
-        };
 
-        // Arama Fonksiyonu
+                filteredData = allData;
+                render();
+            } catch (e) { console.error("Yükleme hatası:", e); }
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // Aynı isimli içerikleri "Dizi" olarak grupla
+        function groupSeries(items) {
+            let groups = {};
+            items.forEach(item => {
+                // İsim temizleme (Örn: "Dizi Adı 1. Bölüm" -> "Dizi Adı")
+                let baseName = item.name.replace(/(S\d+|E\d+|\d+\.\s*Bölüm.*)/gi, '').trim();
+                if (!groups[baseName]) {
+                    groups[baseName] = { ...item, name: baseName, isSeries: true, episodes: [] };
+                }
+                groups[baseName].episodes.push({ title: item.name, url: item.url });
+            });
+            return Object.values(groups);
+        }
+
+        function render() {
+            const grid = document.getElementById('mainGrid');
+            const items = filteredData.slice(0, displayCount);
+            grid.innerHTML = items.map((item, index) => `
+                <div class="card" onclick="handleItemClick(${index})">
+                    ${item.isSeries ? `<span class="badge">${item.episodes.length} Bölüm</span>` : ''}
+                    <img src="${item.logo}" onerror="this.src='https://via.placeholder.com/300x450?text=CanoFlix'">
+                    <div class="card-info">${item.name.substring(0,30)}</div>
+                </div>
+            `).join('');
+        }
+
+        function handleItemClick(index) {
+            const item = filteredData[index];
+            if (item.isSeries) {
+                showEpisodes(item);
+            } else {
+                playVideo(item.url);
+            }
+        }
+
+        function showEpisodes(series) {
+            const modal = document.getElementById('modal');
+            const list = document.getElementById('episode-list');
+            modal.style.display = 'flex';
+            list.style.display = 'block';
+            document.getElementById('playerArea').style.display = 'none';
+            
+            list.innerHTML = `<h2>${series.name}</h2>` + series.episodes.map(ep => `
+                <div class="episode-item" onclick="playVideo('${ep.url}')">
+                    <span>${ep.title}</span>
+                    <i class="fas fa-play-circle"></i>
+                </div>
+            `).join('');
+        }
+
+        function playVideo(url) {
+            const modal = document.getElementById('modal');
+            const area = document.getElementById('playerArea');
+            modal.style.display = 'flex';
+            document.getElementById('episode-list').style.display = 'none';
+            area.style.display = 'block';
+            
+            // Player seçimi (m3u8 veya mp4)
+            area.innerHTML = `<iframe src="${url}" style="width:100%; height:100%; border:none;" allowfullscreen></iframe>`;
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+            document.getElementById('playerArea').innerHTML = '';
+        }
+
+        function switchMode(file, btn) {
+            document.querySelectorAll('.nav-buttons button').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            displayCount = 40;
+            loadM3U(file);
+        }
+
+        // Arama ve Sonsuz Kaydırma
         document.getElementById('searchInput').addEventListener('input', (e) => {
             const val = e.target.value.toLowerCase();
             filteredData = allData.filter(x => x.name.toLowerCase().includes(val));
             displayCount = 40;
-            renderItems();
+            render();
         });
 
-        function play(url) {
-            const player = document.getElementById('player');
-            const area = document.getElementById('videoArea');
-            player.style.display = 'block';
-            area.innerHTML = `<iframe src="${url}" style="width:100%; height:100%; border:none;" allowfullscreen></iframe>`;
-        }
+        window.onscroll = () => {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 800) {
+                if (displayCount < filteredData.length) {
+                    displayCount += 40;
+                    render();
+                }
+            }
+        };
 
-        function closePlayer() {
-            document.getElementById('player').style.display = 'none';
-            document.getElementById('videoArea').innerHTML = '';
-        }
-
-        window.onload = loadData;
+        window.onload = () => loadM3U('canli.m3u');
     </script>
 </body>
 </html>
