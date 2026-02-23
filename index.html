@@ -3,131 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CanoFlix - M3U Player</title>
+    <title>CanoFlix - Premium</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root { --red: #E50914; --black: #141414; --gray: #2f2f2f; }
-        body { background: var(--black); color: white; font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
-        
-        /* Navbar */
-        .navbar { position: fixed; top: 0; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent); z-index: 1000; box-sizing: border-box; }
-        .logo { color: var(--red); font-size: 2rem; font-weight: bold; text-transform: uppercase; }
-        .search-container { position: relative; width: 300px; }
-        .search-container input { width: 100%; padding: 10px 15px; border-radius: 20px; border: none; background: rgba(255,255,255,0.2); color: white; outline: none; }
-
-        /* Hero */
-        .hero { height: 50vh; display: flex; align-items: center; padding: 0 5%; background: linear-gradient(to right, rgba(0,0,0,0.8), transparent), url('https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bca1-07e3f8eb14af/8a0029b9-d25a-4e4b-ba04-51e3c155f462/TR-tr-20220502-popsignuptwoweeks-perspective_alpha_website_medium.jpg') center/cover; }
-        .hero-text h1 { font-size: 3.5rem; margin: 0; color: var(--red); }
-
-        /* Movie Grid */
-        .container { padding: 30px 5%; margin-top: -50px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
-        .card { background: var(--gray); border-radius: 8px; overflow: hidden; transition: 0.3s; cursor: pointer; position: relative; height: 120px; display: flex; align-items: center; justify-content: center; text-align: center; border: 1px solid transparent; }
-        .card:hover { transform: scale(1.1); border-color: var(--red); z-index: 10; }
-        .card-title { font-size: 0.9rem; padding: 10px; font-weight: bold; }
-        .play-icon { position: absolute; top: 10px; right: 10px; color: var(--red); opacity: 0; transition: 0.3s; }
-        .card:hover .play-icon { opacity: 1; }
-
-        /* Loader */
-        #loader { text-align: center; padding: 50px; font-size: 1.5rem; color: var(--red); }
-        
-        /* Iframe Modal */
-        #playerWrap { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#000; z-index:9999; }
-        .close-btn { position:absolute; top:20px; right:30px; font-size:40px; color:#fff; cursor:pointer; z-index:10000; }
-        iframe, video { width:100%; height:100%; border:none; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --red: #E50914; --black: #0f0f0f; --dark-gray: #1a1a1a; --text-gray: #b3b3b3; }
+        body { background: var(--black); color: white; font-family: 'Helvetica Neue', Arial, sans-serif; overflow-x: hidden; }
+        .navbar { position: fixed; top: 0; width: 100%; display: flex; flex-direction: column; padding: 15px 5%; background: rgba(0,0,0,0.9); z-index: 1000; gap: 10px; }
+        .logo { color: var(--red); font-size: 2rem; font-weight: bold; text-decoration: none; text-align: center; }
+        .search-container { position: relative; width: 100%; }
+        .search-container input { width: 100%; padding: 12px 40px; border-radius: 25px; border: none; background: var(--dark-gray); color: white; font-size: 1rem; }
+        .stats { display: flex; gap: 15px; justify-content: center; font-size: 0.8rem; color: var(--text-gray); margin-top: 110px; padding: 10px; }
+        .content-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; padding: 20px 5%; }
+        .card { background: var(--dark-gray); border-radius: 8px; overflow: hidden; transition: transform 0.3s; cursor: pointer; }
+        .card:hover { transform: scale(1.05); }
+        .card img { width: 100%; aspect-ratio: 2/3; object-fit: cover; }
+        .card-info { padding: 8px; font-size: 0.8rem; text-align: center; }
+        #loading { text-align: center; padding: 20px; color: var(--red); }
+        #player { position: fixed; top:0; left:0; width:100%; height:100%; background:black; z-index:2000; display:none; }
+        .close-btn { position:absolute; top:20px; right:20px; color:white; font-size:2rem; cursor:pointer; z-index:2001; }
     </style>
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">CanoFlix</div>
+    <div class="navbar">
+        <a href="#" class="logo">CANOFLIX</a>
         <div class="search-container">
-            <input type="text" id="search" placeholder="Film, dizi veya kanal ara..." onkeyup="filterList()">
+            <i class="fas fa-search" style="position:absolute; left:15px; top:15px; color:var(--text-gray)"></i>
+            <input type="text" id="searchInput" placeholder="Film, dizi veya kanal ara...">
         </div>
-    </nav>
-
-    <header class="hero">
-        <div class="hero-text">
-            <h1>ÜmitM0d Arşivi</h1>
-            <p>91 MB'lık dev kütüphane şimdi cebinde.</p>
-        </div>
-    </header>
-
-    <div class="container">
-        <div id="loader"><i class="fas fa-spinner fa-spin"></i> Dosya İşleniyor...</div>
-        <div id="grid" class="grid"></div>
     </div>
 
-    <div id="playerWrap">
+    <div class="stats" id="stats">Veriler yükleniyor (91MB biraz zaman alabilir)...</div>
+    
+    <div class="content-grid" id="container"></div>
+    <div id="loading">Listeleniyor...</div>
+
+    <div id="player">
         <span class="close-btn" onclick="closePlayer()">&times;</span>
-        <div id="playerInner" style="width:100%; height:100%;"></div>
+        <div id="videoArea" style="width:100%; height:100%;"></div>
     </div>
 
     <script>
         let allData = [];
+        let filteredData = [];
+        let displayCount = 40;
+        const step = 40;
 
-        async function loadM3U() {
+        async function loadData() {
             try {
-                // Dosya adın tam olarak bu olmalı
                 const response = await fetch('umitmod.m3u');
                 const text = await response.text();
                 const lines = text.split('\n');
                 
-                let currentName = "";
+                let currentItem = {};
                 
-                for(let i=0; i<lines.length; i++) {
+                for (let i = 0; i < lines.length; i++) {
                     let line = lines[i].trim();
-                    if(line.startsWith('#EXTINF')) {
-                        currentName = line.split(',')[1] || "İsimsiz İçerik";
-                    } else if(line.startsWith('http')) {
-                        allData.push({ name: currentName, url: line });
+                    if (line.startsWith('#EXTINF:')) {
+                        const name = line.split(',')[1] || "İsimsiz";
+                        const logoMatch = line.match(/tvg-logo="([^"]+)"/);
+                        const groupMatch = line.match(/group-title="([^"]+)"/);
+                        
+                        currentItem = {
+                            name: name,
+                            logo: logoMatch ? logoMatch[1] : '',
+                            group: groupMatch ? groupMatch[1] : 'Genel'
+                        };
+                    } else if (line.startsWith('http')) {
+                        currentItem.url = line;
+                        allData.push(currentItem);
+                        currentItem = {};
                     }
                 }
-                document.getElementById('loader').style.display = 'none';
-                renderList(allData.slice(0, 500)); // İlk etapta 500 tane göster (Hız için)
-            } catch (err) {
-                document.getElementById('loader').innerHTML = "Hata: umitmod.m3u dosyası bulunamadı!";
+                
+                filteredData = allData;
+                updateStats();
+                renderItems();
+                document.getElementById('loading').style.display = 'none';
+            } catch (e) {
+                document.getElementById('stats').innerText = "Hata: Dosya yüklenemedi!";
             }
         }
 
-        function renderList(data) {
-            const grid = document.getElementById('grid');
-            grid.innerHTML = data.map(item => `
-                <div class="card" onclick="openPlayer('${item.url}', '${item.name}')">
-                    <i class="fas fa-play-circle play-icon"></i>
-                    <div class="card-title">${item.name}</div>
-                </div>
-            `).join('');
+        function updateStats() {
+            document.getElementById('stats').innerHTML = `
+                <span><i class="fas fa-list"></i> Toplam: ${allData.length} İçerik</span>
+            `;
         }
 
-        function filterList() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const filtered = allData.filter(item => item.name.toLowerCase().includes(query)).slice(0, 200);
-            renderList(filtered);
+        function renderItems() {
+            const container = document.getElementById('container');
+            const itemsToShow = filteredData.slice(0, displayCount);
+            
+            let html = '';
+            itemsToShow.forEach(item => {
+                html += `
+                    <div class="card" onclick="play('${item.url}')">
+                        <img src="${item.logo}" onerror="this.src='https://via.placeholder.com/300x450?text=CanoFlix'">
+                        <div class="card-info">
+                            <p>${item.name.substring(0,25)}</p>
+                        </div>
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
         }
 
-        function openPlayer(url, title) {
-            const wrap = document.getElementById('playerWrap');
-            const inner = document.getElementById('playerInner');
-            wrap.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-
-            if(url.includes('.m3u8')) {
-                // Basit bir HLS player linkine yönlendirilebilir veya Iframe kullanılabilir
-                // GitHub Pages'ta en kolayı direkt video tagı veya dış player
-                inner.innerHTML = `<video src="${url}" controls autoplay style="width:100%; height:100%;"></video>`;
-            } else {
-                inner.innerHTML = `<iframe src="${url}" allowfullscreen></iframe>`;
+        // Sonsuz Kaydırma
+        window.onscroll = function() {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+                if (displayCount < filteredData.length) {
+                    displayCount += step;
+                    renderItems();
+                }
             }
+        };
+
+        // Arama Fonksiyonu
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            filteredData = allData.filter(x => x.name.toLowerCase().includes(val));
+            displayCount = 40;
+            renderItems();
+        });
+
+        function play(url) {
+            const player = document.getElementById('player');
+            const area = document.getElementById('videoArea');
+            player.style.display = 'block';
+            area.innerHTML = `<iframe src="${url}" style="width:100%; height:100%; border:none;" allowfullscreen></iframe>`;
         }
 
         function closePlayer() {
-            document.getElementById('playerWrap').style.display = 'none';
-            document.getElementById('playerInner').innerHTML = '';
-            document.body.style.overflow = 'auto';
+            document.getElementById('player').style.display = 'none';
+            document.getElementById('videoArea').innerHTML = '';
         }
 
-        window.onload = loadM3U;
+        window.onload = loadData;
     </script>
 </body>
 </html>
