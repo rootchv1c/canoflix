@@ -69,7 +69,7 @@
         async function loadM3U() {
             try {
                 // Dosya adın tam olarak bu olmalı
-                const response = await fetch('ÜmitM0d.m3u');
+                const response = await fetch('umitmod.m3u');
                 const text = await response.text();
                 const lines = text.split('\n');
                 
@@ -86,7 +86,7 @@
                 document.getElementById('loader').style.display = 'none';
                 renderList(allData.slice(0, 500)); // İlk etapta 500 tane göster (Hız için)
             } catch (err) {
-                document.getElementById('loader').innerHTML = "Hata: ÜmitM0d.m3u dosyası bulunamadı!";
+                document.getElementById('loader').innerHTML = "Hata: umitmod.m3u dosyası bulunamadı!";
             }
         }
 
