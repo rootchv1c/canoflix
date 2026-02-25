@@ -1,0 +1,58 @@
+# ================================================
+# STREAMFLIX — GÜVENLİK
+# ================================================
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # data/ klasörüne dışarıdan erişimi tamamen engelle
+  RewriteRule ^data/.*$ - [F,L]
+
+  # includes/ PHP'leri direkt çağırmayı engelle
+  RewriteRule ^includes/.*$ - [F,L]
+
+  # api/ sadece ajax kabul etsin (isteğe bağlı ek koruma)
+  # RewriteCond %{HTTP:X-Requested-With} !xmlhttprequest [NC]
+  # RewriteRule ^api/.*$ - [F,L]
+</IfModule>
+
+# Hassas dosya uzantılarını engelle
+<FilesMatch "\.(json|log|sql|bak|env|ini|sh|md|txt)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# Güvenlik başlıkları
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header unset X-Powered-By
+</IfModule>
+
+# PHP ayarları
+<IfModule mod_php.c>
+  php_value memory_limit 256M
+  php_value max_execution_time 60
+  php_flag display_errors off
+  php_flag log_errors on
+</IfModule>
+
+# Statik dosya cache
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+</IfModule>

@@ -1,0 +1,818 @@
+[
+  {
+    "name": "Easy Relax",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/relax/mp3-192"
+  },
+  {
+    "name": "Smooth",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/smooth/mp3-128"
+  },
+  {
+    "name": "Smooth #2",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/smooth/mp3-192"
+  },
+  {
+    "name": "Dinner Jazz",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klassikr-smooth-aac-128-2976094"
+  },
+  {
+    "name": "Piano",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klassikr-piano-aac-128-2667054"
+  },
+  {
+    "name": "60ies Bar Lounge",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr-60iesbarlounge-aacplus-64-7100628"
+  },
+  {
+    "name": "Friends Home",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/friendshome/mp3-128"
+  },
+  {
+    "name": "Till Brönner",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/tillbroenner/mp3-192"
+  },
+  {
+    "name": "Lounge",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/lounge/mp3-128"
+  },
+  {
+    "name": "Lounge Beat",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klassikr-loungebeat-aac-128-1610599"
+  },
+  {
+    "name": "Nature",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/nature/mp3-128"
+  },
+  {
+    "name": "Meditation",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_nqlq9rgbhlx_vasj-aac-128-4452931"
+  },
+  {
+    "name": "Healing",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klassikr-healing-aac-128-4314525"
+  },
+  {
+    "name": "Yoga",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/yoga/mp3-192"
+  },
+  {
+    "name": "Brazil",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr-brazil-mp3-128-2052435"
+  },
+  {
+    "name": "Streaming und Serien Hits",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/serien/mp3-192"
+  },
+  {
+    "name": "Movie Heroes",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_od1nkisewt4_s9sa-aac-128-6969196"
+  },
+  {
+    "name": "Filmklassiker",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_ywfg0xhyqhd_qj49-mp3-192-9330415"
+  },
+  {
+    "name": "Dreams",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klassikr-klassikdrea-aac-128-2980697"
+  },
+  {
+    "name": "Musical",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_kt2aermjjsq_n3nv-mp3-192-9065933"
+  },
+  {
+    "name": "Games",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/games/mp3-128"
+  },
+  {
+    "name": "Klassic Rock",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/klassikrock/mp3-128"
+  },
+  {
+    "name": "Christmas",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/christmas/mp3-128"
+  },
+  {
+    "name": "Klassik AM Morgen",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_8b1x2061bli_t4lb-aac-128-7203084"
+  },
+  {
+    "name": "Klassik zum Kochen",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_cf67wy4h5iy_ilpd-aac-128-6213719"
+  },
+  {
+    "name": "Klassik zum Weinabend",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_5l7umldw02n_p4gf-aac-128-1174589"
+  },
+  {
+    "name": "Feel Good Klassik",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/feelgoodklassik/mp3-192"
+  },
+  {
+    "name": "Mit Klassik Kindern helfen",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/mit-klassik-kindern-helfen/mp3-192"
+  },
+  {
+    "name": "Barock",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://klassikr.streamabc.net/klr_l7egybib0zd_vhrw-aac-128-1349289"
+  },
+  {
+    "name": "Opera",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/opera/mp3-128"
+  },
+  {
+    "name": "Chor",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/chor/mp3-128"
+  },
+  {
+    "name": "Pure Bach",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/purebach/mp3-128"
+  },
+  {
+    "name": "Pure Beethoven",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/beethoven/mp3-192"
+  },
+  {
+    "name": "Pure Mozart",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/mozart/mp3-128"
+  },
+  {
+    "name": "Pure Verdi",
+    "logo": "https://i.imgur.com/f7pzWpx.png",
+    "category": "Klassik Radio",
+    "url": "https://stream.klassikradio.de/verdi/mp3-128"
+  },
+  {
+    "name": "Nothin' But 90s",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Remember the 80s",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Flashback 70s",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Hit List",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Pop Adults",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Today's Latin Pop",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Today's KPOP",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Hot Country",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Classic Rock",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Rock Alternative",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Urban Beat",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Smooth Jazz",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "The Spa",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Easy Listening",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Soul Storm",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Romance Latino",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Greatest Hits",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Qello Concerts by Stingray",
+    "logo": "https://i.imgur.com/vsVnGAN.png",
+    "category": "Stingray Music",
+    "url": "https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "90s 90s",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/pop/mp3-192"
+  },
+  {
+    "name": "90s Dinnerparty",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://regiocast.streamabc.net/regc-90s90sdinnerparty-aacplus-64-1573314"
+  },
+  {
+    "name": "90s Boygroups",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/boygroup/mp3-128"
+  },
+  {
+    "name": "90s Lovesongs",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/love/mp3-192"
+  },
+  {
+    "name": "90s Sommerhits",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/90s90s-sommerhits/mp3-192"
+  },
+  {
+    "name": "90s RnB",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/rnb/mp3-192"
+  },
+  {
+    "name": "90s Hip Hop",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/hiphop/mp3-192"
+  },
+  {
+    "name": "90s In The Mix",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/inthemix/mp3-128"
+  },
+  {
+    "name": "90s Eurodance",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/eurodance/mp3-128"
+  },
+  {
+    "name": "90s Techno",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.90s90s.de/techno/mp3-192"
+  },
+  {
+    "name": "80s 80s",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/web/mp3-192"
+  },
+  {
+    "name": "80s Love",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/love/mp3-128"
+  },
+  {
+    "name": "80s Party",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/party/mp3-128"
+  },
+  {
+    "name": "80s Summer",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/summerhits/mp3-192"
+  },
+  {
+    "name": "80s Rock",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/rock/mp3-128"
+  },
+  {
+    "name": "80s Funk Soul",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/soul/mp3-192"
+  },
+  {
+    "name": "80s Italo Disco",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/italohits/mp3-192"
+  },
+  {
+    "name": "80s In The Mix",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/mix/mp3-192"
+  },
+  {
+    "name": "80s Christmas",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://regiocast.streamabc.net/regc-80s80sevent014441101-mp3-192-8841017"
+  },
+  {
+    "name": "80s Jackson",
+    "logo": "https://i.imgur.com/mejgvzJ.png",
+    "category": "80s 90s",
+    "url": "https://streams.80s80s.de/mj/mp3-128"
+  },
+  {
+    "name": "BBC Radio 1",
+    "logo": "https://i.imgur.com/jrcfaRm.png",
+    "category": "Dünya Radyoları",
+    "url": "https://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio=320000.norewind.m3u8"
+  },
+  {
+    "name": "BBC Radio 1 Dance",
+    "logo": "https://i.imgur.com/P6lq4TG.png",
+    "category": "Dünya Radyoları",
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/cfs/bbc_radio_one_dance.mpd"
+  },
+  {
+    "name": "BBC Radio 1 Xtra",
+    "logo": "https://i.imgur.com/l04aRXi.png",
+    "category": "Dünya Radyoları",
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/cfs/bbc_1xtra.mpd"
+  },
+  {
+    "name": "BBC Radio 2",
+    "logo": "https://i.imgur.com/oqUcWGD.png",
+    "category": "Dünya Radyoları",
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aks/bbc_radio_two.mpd"
+  },
+  {
+    "name": "BBC Radio 3",
+    "logo": "https://i.imgur.com/4q8Vase.png",
+    "category": "Dünya Radyoları",
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aks/bbc_radio_three.mpd"
+  },
+  {
+    "name": "BBC Radio 6",
+    "logo": "https://i.imgur.com/6e5jGfN.png",
+    "category": "Dünya Radyoları",
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aks/bbc_6music.mpd"
+  },
+  {
+    "name": "RTL Gold",
+    "logo": "https://i.imgur.com/T73Gp70.png",
+    "category": "Dünya Radyoları",
+    "url": "https://stream.rtl.lu/data/live/radio/rtlgold/playlist.m3u8"
+  },
+  {
+    "name": "RTL LX",
+    "logo": "https://i.imgur.com/3Wa0MaV.png",
+    "category": "Dünya Radyoları",
+    "url": "https://sc.bce.lu/rtllx"
+  },
+  {
+    "name": "RTL Die besten Hits aller Zeiten",
+    "logo": "https://i.imgur.com/Pxd4pBH.png",
+    "category": "Dünya Radyoları",
+    "url": "https://stream.rtlradio.de/rtl-de-beste-hits/mp3-128"
+  },
+  {
+    "name": "RAI Radio 3",
+    "logo": "https://i.imgur.com/fNvQiuu.png",
+    "category": "Dünya Radyoları",
+    "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S56630579/yEbkcBtIoSwd/icecast"
+  },
+  {
+    "name": "RAI Radio Classica",
+    "logo": "https://i.imgur.com/DkQfkby.png",
+    "category": "Dünya Radyoları",
+    "url": "https://radiotreclassica-live.akamaized.net/hls/live/2032595/radiotreclassica/radiotreclassica/playlist.m3u8"
+  },
+  {
+    "name": "Lo-Fi Girls",
+    "logo": "https://i.imgur.com/da8HITF.png",
+    "category": "Dünya Radyoları",
+    "url": "https://stream.zeno.fm/tabzverz0fctv"
+  },
+  {
+    "name": "Romantica Radio Italy",
+    "logo": "https://i.imgur.com/k1meCDg.png",
+    "category": "Dünya Radyoları",
+    "url": "https://vetrina.multi-radio.com/romanticaradio"
+  },
+  {
+    "name": "MAD Radio",
+    "logo": "https://i.imgur.com/ETP0dOB.png",
+    "category": "Dünya Radyoları",
+    "url": "https://mediaserver.mad.tv/stream"
+  },
+  {
+    "name": "Radio Arts - Jazz for Jazz",
+    "logo": "https://i.imgur.com/6E5Gx5Z.png",
+    "category": "Dünya Radyoları",
+    "url": "https://air.radioart.com/fJazz_for_sleep.mp3"
+  },
+  {
+    "name": "Radio Arts - Piano for Sleep",
+    "logo": "https://i.imgur.com/6E5Gx5Z.png",
+    "category": "Dünya Radyoları",
+    "url": "https://live.radioart.com/fPiano_for_sleep.mp3"
+  },
+  {
+    "name": "Radio Arts - Guitar for Sleep",
+    "logo": "https://i.imgur.com/6E5Gx5Z.png",
+    "category": "Dünya Radyoları",
+    "url": "https://live.radioart.com/fGuitar_for_sleep.mp3"
+  },
+  {
+    "name": "TRT Radyo 1",
+    "logo": "https://i.imgur.com/e5YIAol.png",
+    "category": "Türk Radyoları",
+    "url": "https://trt.radyotvonline.net/trt1"
+  },
+  {
+    "name": "TRT FM",
+    "logo": "https://i.imgur.com/0xWHMxb.png",
+    "category": "Türk Radyoları",
+    "url": "https://trt.radyotvonline.net/trtfm"
+  },
+  {
+    "name": "TRT Nağme",
+    "logo": "https://i.imgur.com/JnXou78.png",
+    "category": "Türk Radyoları",
+    "url": "https://rd-trtnagme.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "TRT Türkü",
+    "logo": "https://i.imgur.com/2qVdSd5.png",
+    "category": "Türk Radyoları",
+    "url": "https://rd-trtturku.medya.trt.com.tr/master_128.m3u8"
+  },
+  {
+    "name": "TRT Radyo 3",
+    "logo": "https://i.imgur.com/alGv0Yu.png",
+    "category": "Türk Radyoları",
+    "url": "https://rd-trtradyo3.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "Süper FM",
+    "logo": "https://i.imgur.com/oXNGZr9.png",
+    "category": "Türk Radyoları",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_ITUNES.mp3"
+  },
+  {
+    "name": "Alem FM",
+    "logo": "https://i.imgur.com/2o42zoh.png",
+    "category": "Türk Radyoları",
+    "url": "https://turkmedya.radyotvonline.net/alemfmaac"
+  },
+  {
+    "name": "Best FM",
+    "logo": "https://i.imgur.com/d3ZBvr7.png",
+    "category": "Türk Radyoları",
+    "url": "https://officialbestfm.radyotvonline.net/bestfmofficial"
+  },
+  {
+    "name": "Show Radyo",
+    "logo": "https://i.imgur.com/UOYhceA.png",
+    "category": "Türk Radyoları",
+    "url": "https://showradyo.radyotvonline.net/;"
+  },
+  {
+    "name": "Joy Türk",
+    "logo": "https://i.imgur.com/rdByHWf.png",
+    "category": "Türk Radyoları",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK128AAC.aac"
+  },
+  {
+    "name": "Pal FM",
+    "logo": "https://i.imgur.com/yQMdQyj.png",
+    "category": "Türk Radyoları",
+    "url": "https://moondigitaledge.radyotvonline.net/palfm/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Alaturka",
+    "logo": "https://i.imgur.com/M85RMbN.png",
+    "category": "Türk Radyoları",
+    "url": "https://yayin.jumboserver.net:9100/stream"
+  },
+  {
+    "name": "Pal Nostalji",
+    "logo": "https://i.imgur.com/eatOgOe.png",
+    "category": "Türk Radyoları",
+    "url": "https://moondigitaledge.radyotvonline.net/palnostalji/playlist.m3u8"
+  },
+  {
+    "name": "Radyo 45'lik",
+    "logo": "https://i.imgur.com/6skdHcs.png",
+    "category": "Türk Radyoları",
+    "url": "https://stream.radyo45lik.com:4545/stream"
+  },
+  {
+    "name": "Power FM",
+    "logo": "https://i.imgur.com/7VSGvfn.png",
+    "category": "Türk Radyoları",
+    "url": "https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio"
+  },
+  {
+    "name": "Power Smooth Jazz",
+    "logo": "https://i.imgur.com/qLZDJ7f.png",
+    "category": "Türk Radyoları",
+    "url": "https://listen.powerapp.com.tr/powersmoothjazz/mpeg/icecast.audio"
+  },
+  {
+    "name": "Power Love",
+    "logo": "https://i.imgur.com/2Y5A5Cy.png",
+    "category": "Türk Radyoları",
+    "url": "https://listen.powerapp.com.tr/powerlove/mpeg/icecast.audio"
+  },
+  {
+    "name": "Power XL",
+    "logo": "https://i.imgur.com/MV3rWqo.png",
+    "category": "Türk Radyoları",
+    "url": "https://listen.powerapp.com.tr/powerextralounge/mpeg/icecast.audio"
+  },
+  {
+    "name": "Power Gold",
+    "logo": "https://i.imgur.com/wkV8cKV.png",
+    "category": "Türk Radyoları",
+    "url": "https://live.powerapp.com.tr/powergold/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Plus",
+    "logo": "https://i.imgur.com/tEoHQRv.png",
+    "category": "Türk Radyoları",
+    "url": "https://listen.powerapp.com.tr/powerplus/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Pop",
+    "logo": "https://i.imgur.com/cZIWtE1.png",
+    "category": "Türk Radyoları",
+    "url": "https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8"
+  },
+  {
+    "name": "Joy FM",
+    "logo": "https://i.imgur.com/F5nhknn.gif",
+    "category": "Türk Radyoları",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FM_ITUNES.mp3"
+  },
+  {
+    "name": "Pal Station",
+    "logo": "https://i.imgur.com/hhtP2gb.png",
+    "category": "Türk Radyoları",
+    "url": "https://moondigitaledge.radyotvonline.net/palstation/playlist.m3u8"
+  },
+  {
+    "name": "Metro FM",
+    "logo": "https://i.imgur.com/D7Mv6Rr.png",
+    "category": "Türk Radyoları",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM_ITUNES.mp3"
+  },
+  {
+    "name": "Radio Fenomen",
+    "logo": "https://i.imgur.com/NiugeFJ.png",
+    "category": "Türk Radyoları",
+    "url": "https://live.radyofenomen.com/fenomen/abr/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Eksen",
+    "logo": "https://i.imgur.com/Qdo1BMn.png",
+    "category": "Türk Radyoları",
+    "url": "https://dygedge.radyotvonline.net/radyoeksen/playlist.m3u8"
+  },
+  {
+    "name": "Radio FG",
+    "logo": "https://i.imgur.com/3ivyYdi.gif",
+    "category": "Türk Radyoları",
+    "url": "https://edge1.radyotvonline.net/shoutcast/play/fg"
+  },
+  {
+    "name": "Radio Voyage",
+    "logo": "https://i.imgur.com/4sGqEU3.png",
+    "category": "Türk Radyoları",
+    "url": "https://ssldyg.radyotvonline.com/pozitif/smil:voyage.smil/playlist.m3u8"
+  },
+  {
+    "name": "dinamo FM",
+    "logo": "https://i.imgur.com/60vSaVe.png",
+    "category": "Türk Radyoları",
+    "url": "http://channels.dinamo.fm/legacy-mp3"
+  },
+  {
+    "name": "dinamo FM - Sleep",
+    "logo": "https://i.imgur.com/60vSaVe.png",
+    "category": "Türk Radyoları",
+    "url": "https://channels.dinamo.fm/sleep-aac"
+  },
+  {
+    "name": "dinamo FM - Cafe",
+    "logo": "https://i.imgur.com/60vSaVe.png",
+    "category": "Türk Radyoları",
+    "url": "https://channels.dinamo.fm/caffe-aac"
+  },
+  {
+    "name": "MTV Classic",
+    "logo": "https://i.imgur.com/sXe2aWE.png",
+    "category": "Kanallar",
+    "url": "https://fl1.moveonjoy.com/MTV_CLASSIC/index.m3u8"
+  },
+  {
+    "name": "MTV Live",
+    "logo": "https://i.imgur.com/aEPTd1h.png",
+    "category": "Kanallar",
+    "url": "https://fl1.moveonjoy.com/MTV_LIVE/index.m3u8"
+  },
+  {
+    "name": "Stingray MovieMusic",
+    "logo": "https://i.imgur.com/k04xilU.png",
+    "category": "Kanallar",
+    "url": "https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Stingray Holidayscapes",
+    "logo": "https://i.imgur.com/dL0kSbb.png",
+    "category": "Kanallar",
+    "url": "https://plextv.ott-channels.stingray.com/holidayscapes/master.m3u8"
+  },
+  {
+    "name": "Stingray Naturescape",
+    "logo": "https://i.imgur.com/1P54qCs.png",
+    "category": "Kanallar",
+    "url": "https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Vevo 90s",
+    "logo": "https://i.imgur.com/G76GUIW.png",
+    "category": "Kanallar",
+    "url": "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8"
+  },
+  {
+    "name": "Vevo 80s",
+    "logo": "https://i.imgur.com/73Kak5W.png",
+    "category": "Kanallar",
+    "url": "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8"
+  },
+  {
+    "name": "Vevo 70s",
+    "logo": "https://i.imgur.com/h7N5ENt.png",
+    "category": "Kanallar",
+    "url": "https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8"
+  },
+  {
+    "name": "Vevo Pop",
+    "logo": "https://i.imgur.com/Lr0ctYP.png",
+    "category": "Kanallar",
+    "url": "https://amg00056-amg00056c7-rakuten-de-3245.playouts.now.amagi.tv/1080p/index.m3u8"
+  },
+  {
+    "name": "Vevo Country",
+    "logo": "https://i.imgur.com/YrBjsfa.png",
+    "category": "Kanallar",
+    "url": "https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8"
+  },
+  {
+    "name": "Stingray Karaoke",
+    "logo": "https://i.imgur.com/HJtou6X.png",
+    "category": "Genel",
+    "url": "https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Mezzo TV",
+    "logo": "https://i.imgur.com/zv9oezH.png",
+    "category": "Kanallar",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8"
+  },
+  {
+    "name": "Stingray Classica",
+    "logo": "https://i.imgur.com/PZDJ3bk.png",
+    "category": "Kanallar",
+    "url": "https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Stingray DJAZZ",
+    "logo": "https://i.imgur.com/In2jLn7.png",
+    "category": "Kanallar",
+    "url": "https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "name": "Qello Concerts By Stingray",
+    "logo": "https://i.imgur.com/e0iJsQf.png",
+    "category": "Kanallar",
+    "url": "https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8"
+  }
+]
